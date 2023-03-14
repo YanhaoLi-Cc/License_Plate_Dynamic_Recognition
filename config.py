@@ -1,0 +1,11 @@
+# 前端常量设置文件
+import os
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://USERNAME:PASSWORD@127.0.0.1:3306/SCHEMA_NAME'
+SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://myuser:Aapxj_123@127.0.0.1:3306/car_plate'
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+SQLALCHEMY_ECHO = True
+SECRET_KEY = os.urandom(24)
+SESSION_TYPE = 'filesystem'
+ALLOWED_EXTENSIONS_1 = {'.png', '.jpg', '.jpeg'}
+ALLOWED_EXTENSIONS_2 = {'.mp4'}
+MAX_CONTENT_LENGTH = 300 * 1024 * 1024
