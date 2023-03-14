@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="{{url_for('static',filename = 'main_page.css')}}">
+		<meta charset="utf-8">
+		<title>静态车牌识别</title>
+		<h1 class="rec_header">静态车牌识别</h1>
+	</head>
+	<body class="main">
+			<div class="uploadfile">
+				<form id="uploadForm" class="uploadpage" name="uploadForm" method="post" enctype="multipart/form-data" >
+					<div class="up">
+						<label for="upload">请上传要识别文件:</label>
+					    <input type="file" id="upload" name="upload" class="text" style="background-color: gray;" required placeholder="选择上传文件" >
+					</div>
+					<input type="text" style="visibility:hidden;" name="formid" value="0">
+					<button type="submit" class="submit">上传</button>
+					<p class="result_1" id="p1">{{error}}</p>
+				</form>
+					<img src="{{url_for('static',filename='img/微信图片_20220819105015.jpg')}}" class="uploadimg">
+			</div>
+	</body>
+</html>

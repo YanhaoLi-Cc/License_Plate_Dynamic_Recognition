@@ -1,0 +1,423 @@
+@charset "UTF-8";
+.main,.main_page {
+	margin:0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.main {
+	background-image: url(img/0.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.main_page{background-color: black}
+.technology,.member,.result_page,.login{
+	margin:0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.login{
+	background-image: url(img/微信图片_20220822190857.jpg);
+}
+.technology{background-color: aliceblue;}
+.member{background-color: white;}
+.result_page{background-color:white}
+.head-container,.head-container_1,.head-container_2,.head-container_3 {
+	position:relative;
+	width:100%;
+	margin:0px;
+}
+.head-container_2{height:600px;}
+.head-container{height:810px;}
+.head-container_1{height:400px;}
+.head-container_3{height:500px;}
+.function,.tech{
+	margin-top: 80px;
+	width: 60%;
+	margin-left: 20%;
+	text-align: center;
+}
+.function{height: 300px;}
+.tech{height:350px;}
+.function{background-image: url(img/VCG211147783446.jpg);}
+.tech{background-image: url(img/VCG211290349964.jpg);}
+h2{left: 47%;color: aliceblue;}
+.choice_header{
+	position:relative;left:46%;color:black;width:200px;
+}
+.rec_header{
+	position:relative;left:44%;color:black;width:200px;
+}
+.info{
+	position: relative;
+	top: 10%;
+	font-size: 25px;
+	width: 50%;
+	left: 25%;
+	color: aliceblue;
+}
+.nav_box
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:100%;
+	height:100%;
+	z-index: 3;
+}
+.header,.header_1,.header_2{
+	position: fixed;
+	top:0px;
+	height:70px;
+	width:100%;
+}
+.header{background-color: rgba(60, 60, 60, 0.5);}
+.header_1{background-color: rgba(60, 60, 60, 0.2);}
+.header_2{background-color: rgba(60, 60, 60, 0.3);}
+.himg,.tecimg,.memimg,.contactimg{
+	position:absolute;
+	top:0px;
+	z-index: -1;
+	width:100%;
+}
+.himg{height:810px;}
+.tecimg{height:400px;}
+.memimg{height:600px;}
+.contactimg{height:500px;}
+.headerline{
+	position: absolute;
+	background-color: rgba(60, 60, 60, 0.5);
+	top:70px;
+	height:1px;
+	width:100%;
+	z-index:2;
+}
+.logo{
+	margin-left: 15%;
+	width:auto;
+	height:100%;
+}
+.nav{
+	list-style: none;
+	margin-right:15%;
+	margin-top: 0px;
+}
+.nav li{display: inline-block;}
+.nav_a,.nav_a_1,.nav_a_2{
+	font-size: 16px;
+	display: inline-block;
+	line-height: 34px;
+	padding: 27px 20px 25px 20px;
+}
+.nav_a,.nav_a_1{color: white;}
+.nav_a_2{color:black}
+.nav_b{
+	color:white;
+	font-size: 16px;
+	list-style: none;
+}
+.nav_a:hover,.nav_a_1:hover,.nav_a_2:hover{box-shadow: 0 1px gray, 0 2px gray, 0 3px gray;}
+.nav_a:hover{background-color: dimgrey;}
+.nav_a_1:hover{background-color: rgba(60, 60, 60, 0.2);}
+.nav_a_2:hover{background-color: rgba(60, 60, 60, 0.3);}
+.nav a,a:link,a:visited,a:active{
+	border:none;
+	line-height: 100%;
+	text-decoration: none;
+	color: whitesmoke;
+}
+.name{
+	position:absolute;
+	top:320px;
+	left: 495px;
+	text-align: center;
+	font-size: 75px;
+	color:white;
+	font-family: 'Times New Roman', Times, serif;
+}
+.bodypart{
+	display: flex;
+	justify-content: flex-start;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-top: 70px;
+	flex-wrap: wrap;
+}
+.leftpart,.rightpart,.concat,.usingpart{
+	text-align: center;
+	font-size: 20px;
+	font-family:  "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif !important;
+}
+.leftpart{
+	line-height: 300px;
+	background-image: url(img/binary-ge4296a559_1920.jpg);
+	height:300px;
+	width:100%;
+}
+.rightpart{
+	line-height: 200px;
+	background-image: url(img/geometric-g5687d8c7b_1920.jpg);
+	height:200px;width:100%;
+}
+.leftimg,.rightimg{
+	width:100%;
+	height:100%;
+}
+.concat{
+	line-height: 200px;
+	background-image: url(img/微信图片_20220816171603.jpg);
+	margin-top: 50px;
+	height:200px;
+}
+.usingpart{
+	line-height: 300px;
+	background-image: url(img/technology-g8c2daee2e_1920.jpg);
+	margin-top: 50px;
+	height:300px;
+}
+.left,.right{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width:47.5%;
+	height:600px;
+	display: inline;
+}
+.left{margin-right: 5%;}
+.tailpart{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 200px;
+	background-color: rgba(60, 60, 60, 0.5);
+}
+.list{
+	margin-left: 210px;
+	margin-top: 50px;
+}
+.barcode{
+	margin-right: 250px;
+	margin-top: 50px;
+}
+.consult{
+	color: white;
+	font-size: 16px;
+}
+.erweima{
+	margin-top: 30px;
+	width:100px;
+	height:100px;
+}
+.uploadfile{
+	position:absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	top:100px;
+	width:100%;
+}
+.resultpart{background-color: aliceblue;}
+form{color: black;}
+.start{top:100px;}
+.uploadimg{
+	position:absolute;
+	left:27%;
+	top:250px;
+	height:400px;
+	width:700px;
+	margin-top: 50px;
+}
+.uploadimg_2{
+	left:30%;
+	height:500px;
+	width:700px;
+	margin-top: 100px;
+}
+.intro{
+	position: absolute;
+	top:120px;
+	left:320px;
+	font-size: 50px;
+	font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif !important;
+	color: aliceblue;
+}
+.memberinfo,.memberinfo_2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 100px;
+}
+.member1,.member2,.member3,.member4
+{
+	text-align: center;
+	width:20%;
+	height:270px;
+	border: 2px dotted black;
+	vertical-align: center;
+}
+.member_info{
+    line-height:20px;
+	font-size:20px;
+}
+.img{
+	text-align: center;
+	width: 20%;
+	height:270px;
+}
+.tail{
+    margin-top: 100px;
+	width: 100%;
+	height:270px;
+}
+.tailimg{
+	width: 100%;
+	height:auto;
+}
+.contactinfo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 100px;
+}
+.info_1,.info_2,.info_3,.info_4{
+	width: 17%;
+	height: 200px;
+	border: 2px dotted black;
+	text-align: center;
+}
+.tailimg_1{
+	width: 100%;
+	height:270px;
+}
+.result_video{
+   margin-top:50px;
+   height:500px;
+   width:700px;
+	margin-left: 26.5%;
+}
+.form-container{
+	color:black;
+	position:absolute;
+	top:250px;
+	left:35%;
+	height:300px;
+	width:30%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color: rgba(60, 60, 60, 0.4);
+	border-radius: 10px;
+}
+.logininput,.passwordinput{
+	margin-top:10px;
+	margin-bottom: 10px;
+	display:flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	text-align: left;
+}
+.uploadpage,.uploadpage_2{
+	position:absolute;
+	width:30%;
+	left:35%;
+	height:200px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	background-color:rgba(60, 60, 60, 0.5) ;
+	border-radius: 10px;
+}
+.recognize{
+	width:30%;
+	left:35%;
+	height:60px;
+}
+button{
+	margin-top:10px;
+	margin-bottom: 10px;
+	background-color: gray;
+}
+button:hover{
+	background-color: whitesmoke;
+}
+input,label,button{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.uploadpage button{
+	height:50px;
+	margin-top:50px;
+}
+.uploadpage_2 buttton{
+	height:20px;
+	margin-top:50px;
+}
+.recognize button{
+	height:50px;
+	width:80%;
+}
+.loginheader{color:black;}
+.text{
+	position:relative;
+	top:50%;
+}
+.result,.result_1,.result_s{
+	position:absolute;
+	color: black;
+}
+.result{
+	left:650px;
+	font-size:25px;
+	top:120px;
+}
+.result_1{
+	margin-left: 40%;
+	top:150px;
+}
+.result_s{
+	left:680px;
+	top:90px;
+	font-size:25px;
+}
+.choice{
+	margin-left: 20%;
+	margin-right: 20%;
+	background-color: white;
+	margin: 0px;
+	background-image: url(img/微信图片编辑_20220823182748.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.static,.dynamic{
+	top:230px;
+	width:40%;
+	height:300px;
+	background-color:rgba(10, 10, 60, 0.4);
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	font-size: 25px;
+	border-radius: 10px;
+}
+.static a,.dynamic a{line-height: 100%;}
+.static a:hover,.dynamic a:hover{
+	color: powderblue;
+}
+.box{
+	display: flex;
+	position:absolute;
+	top:230px;
+	width:60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	justify-content: space-between;
+}
+.form-control{
+	height:20px;opacity: 0.7;border-radius: 5px;
+}

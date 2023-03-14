@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="{{url_for('static',filename = 'main_page.css')}}">
+		<title>登陆界面</title>
+	</head>
+	<body class="login">
+		<form class="form-container" method="post">
+			<h2 class="loginheader">登录</h2>
+			<div class="logininput">
+				<label for="userinput">用户名</label>
+				<input type="email" class="form-control" id="userinput" name="userinput" aria-describedby="emailhelp" placeholder="请输入用户名">
+			</div>
+			<div class="passwordinput">
+				<label for="passwordinput">密码</label>
+				<input type="password" class="form-control" id="passwordinput" name="passwordinput" placeholder="请输入密码">
+			</div>
+			<button type="submit" class="btn btn-success btn-block" style="height:30px;">登录</button>
+			<div class="error" id="error">{{error}}</div>
+		</form>
+
+	</body>
+</html>

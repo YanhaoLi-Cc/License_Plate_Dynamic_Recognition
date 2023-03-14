@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="{{url_for('static',filename = 'main_page.css')}}">
+		<title>product-introduction</title>
+	</head>
+	<body class="technology">
+		<div class="head-container_1">
+			<img src="{{url_for('static',filename='img/微信图片_20220819143632.jpg')}}" class="tecimg" >
+			<div class="header_1">
+					<div class="nav_box">
+						<img src="{{url_for('static',filename='img/logo.png')}}" class='logo'>
+							<ul class="nav">
+								<li><a href="main_page.html" class="nav_a_1">官网首页</a></li>
+								<li><a href="technology.html" class="nav_a_1">关注业务</a></li>
+								<li><a href="register.html" class="nav_a">注册</a></li>
+								<li><a href="login.html" class="nav_a">登录</a></li>
+							</ul>
+					</div>
+			</div>
+			<p class="intro">项目介绍</p>
+		</div>
+		<div class="function">
+			<h2>项目功能</h2>
+			<p class="info">
+				本个项目的主要功能为静态和动态车牌识别，即用户上传一张图片或一段视频，便可识别出图片或视频中所出现车辆的车牌信息，并反馈给用户
+			</p>
+		</div>
+		<div class="tech">
+			<h2>所用技术</h2>
+			<p class="info">
+				后端：构建SVM模型、MLP模型、ResNet模型进行中英文字符识别
+				利用集成学习，对三个模型识别结果进行集成投票，综合识别英文与数字字符。
+				前端：用了html、css+flask框架来实现网页的呈现和前后端数据的传输。
+			</p>
+		</div>
+	</body>
+</html>

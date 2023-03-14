@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="{{url_for('static',filename = 'main_page.css')}}">
+		<title></title>
+	</head>
+	<body class="result_page">
+		<h1 style="color:black;" class="rec_header">识别结果</h1>
+		<div class="result_video">
+			<img src="static/{{filepath}}" class="uploadimg_2">
+		</div>
+          <p class="result_s">{{result}}</p>
+		<div class="tail">
+		   <img class="tailimg_1" src="{{url_for('static',filename='img/VCG211296654687.jpg')}}">
+		</div>
+    </body>
+</html>
